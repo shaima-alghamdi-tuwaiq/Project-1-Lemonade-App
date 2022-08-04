@@ -24,7 +24,7 @@ Getting Started
 
 1. Download the starter code
 2. Open the project in Android Studio
-3. Complete the project in accordance with the [project instructions](https://developer.android.com/c)
+3. Complete the project in accordance with the [project instructions](https://github.com/shaima-alghamdi-tuwaiq/Project-1-Lemonade-App/blob/master/Instructions.md)
 
 STEPS
 ---------------

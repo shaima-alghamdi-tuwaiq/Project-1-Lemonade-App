@@ -58,7 +58,7 @@ Once you've handled all the updates and transitions between states, be sure to c
 > Tip: A when statement is a great way to check multiple possible conditions of a single value, such as the lemonadeState.
 
 ### Step 3: Implement setViewElements()
-The setViewElements() method is responsible for updating the UI based on the app's state. The text and image should be updated with the values shown below to match the lemonadeState.
+The `setViewElements()` method is responsible for updating the UI based on the app's state. The text and image should be updated with the values shown below to match the lemonadeState.
 
 `SELECT`:
 - Text: Click to select a lemon!
@@ -79,3 +79,20 @@ RESTART:
 - Image: `R.drawable.lemon_restart`
 
 > Tip: The starter code already has a variable for the lemonImage when you set the listeners in onCreate().
+
+
+### Run your app
+
+Once you've built the app's UI and implemented the main activity, it's time to see your hard work in action. Run the app using the **Run > Run ‘app'** menu and the emulator will launch.
+
+![image](https://user-images.githubusercontent.com/110332003/182846107-34ccad37-72f9-4079-8512-0a601fdfc9a0.png)
+
+The app should now be fully interactive and you should be able to tap the image view to transition between states.
+
+![image](https://user-images.githubusercontent.com/110332003/182846165-e69b02ce-d907-4f95-8cad-263a02ced662.png)
+
+
+While the lemon is shown on screen, you can also try long-pressing (press and hold) the `ImageView` to see the snackbar at the bottom revealing the total number of times the lemon has been squeezed. Take some time to run through the app through all the states a few times. Then, take a moment to congratulate yourself for your hard work!
+
+
+
